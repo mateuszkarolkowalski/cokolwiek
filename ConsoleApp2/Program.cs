@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
@@ -10,6 +6,14 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            string name = args[0];
+            Console.WriteLine("Witaj, " + name);
+            //foreach (var item in args)
+            //{
+            //    Console.WriteLine("Witaj, " + item);
+            //}
+           
+            
         }
     }
 }
